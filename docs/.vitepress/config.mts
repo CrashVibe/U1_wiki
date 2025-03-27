@@ -23,7 +23,7 @@ export default defineConfig({
     ["script", { async: "true", src: "/cursor.js" }],
   ],
   sitemap: {
-    hostname: "https://u1.whiteleaf.cn",
+    hostname: "https://u1.crashvibe.cn",
   },
   themeConfig: {
     search: {
