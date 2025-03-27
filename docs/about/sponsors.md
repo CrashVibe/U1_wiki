@@ -120,6 +120,11 @@ const sponsors = [
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=1499269976&spec=100',
     name: 'wqdsb',
     title: '捐赠 1 次，共 50 元'
+  },
+  {
+    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=2240089348&spec=100',
+    name: 'Россия-Украинская в',
+    title: '捐赠 1 次，共 5 元'
   }
 ]
 </script>
