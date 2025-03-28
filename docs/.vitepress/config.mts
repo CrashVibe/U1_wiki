@@ -74,6 +74,7 @@ export default defineConfig({
               { text: "Github Card", link: "/yaoyi-func/Github Card" },
               { text: "塔罗牌", link: "/yaoyi-func/塔罗牌" },
               { text: "运行状态", link: "/yaoyi-func/运行状态" },
+              { text: "早晚安", link: "/yaoyi-func/早晚安" },
             ],
           },
           {
