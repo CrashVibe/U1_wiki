@@ -11,6 +11,11 @@ import {
 } from 'vitepress/theme'
 
 const sponsors = [
+  {
+    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3050404518&spec=100',
+    name: 'z',
+    title: '捐赠 1 次，共 10 元',
+  },
     {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=869379440&spec=100',
     name: '风林',
