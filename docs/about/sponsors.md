@@ -12,6 +12,16 @@ import {
 
 const sponsors = [
   {
+    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=2787770453&spec=100',
+    name: '监の母',
+    title: '捐赠 2 次，共 45 元',
+  },
+  {
+    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=1940462948&spec=100',
+    name: '𝓑𝓪𝓴𝓪',
+    title: '捐赠 2 次，共 113 元',
+  },
+  {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=2816597419&spec=100',
     name: 'CuSO₄·5H₂O',
     title: '捐赠 2 次，共 113 元',
@@ -19,17 +29,12 @@ const sponsors = [
   {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=2787770453&spec=100',
     name: '监の母',
-    title: '捐赠 1 次，共 5 元',
+    title: '捐赠 2 次，共 45 元',
   },
   {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3050404518&spec=100',
     name: 'z',
     title: '捐赠 1 次，共 10 元',
-  },
-  {
-    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=869379440&spec=100',
-    name: '风林',
-    title: '捐赠 2 次，共 195 元',
   },
   {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=1519412035&spec=100',
@@ -57,6 +62,11 @@ const sponsors = [
     title: '捐赠 1 次，共 10 元',
   },
   {
+    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=869379440&spec=100',
+    name: '风林',
+    title: '捐赠 2 次，共 195 元',
+  },
+  {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=0&spec=100',
     name: '热血市民小彭',
     title: '捐赠 1 次，共 10 元'
@@ -65,6 +75,11 @@ const sponsors = [
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=2544028137&spec=100',
     name: '杨骐鸣',
     title: '捐赠 3 次，共 15 元'
+  },
+  {
+    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=2165324581&spec=100',
+    name: '双笙蝶舞',
+    title: '捐赠 1 次，共 30 元'
   },
   {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=242800056&spec=100',
@@ -120,11 +135,6 @@ const sponsors = [
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=2015283665&spec=100',
     name: '希儿希儿希',
     title: '捐赠 1 次，共 5 元'
-  },
-  {
-    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=2165324581&spec=100',
-    name: '双笙蝶舞',
-    title: '捐赠 1 次，共 30 元'
   },
   {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3170455924&spec=100',
