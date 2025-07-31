@@ -11,10 +11,14 @@
             "id": "f2b86f7cddf69313",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/yaoyi-func/网易云点歌.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "网易云点歌"
             }
           }
         ]
@@ -36,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -73,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 231.5
   },
   "right": {
     "id": "426b09b237c2cf96",
@@ -152,38 +157,47 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian42-brat:BRAT": false
+      "command-palette:打开命令面板": false
     }
   },
   "active": "f2b86f7cddf69313",
   "lastOpenFiles": [
     "docs/yaoyi-func/运行状态.md",
+    "docs/yaoyi-func/娶群友.md",
+    "docs/yaoyi-func/网易云点歌.md",
+    "docs/yaoyi-func/网抑云.md",
     "docs/yaoyi-func/天气.md",
+    "docs/yaoyi-func/塔罗牌.md",
+    "docs/yaoyi-func/历史上的今天.md",
+    "docs/yaoyi-func/今天吃什么.md",
+    "docs/yaoyi-func/今日运势.md",
+    "docs/yaoyi-func/回声洞.md",
+    "docs/yaoyi-func/疯狂星期四.md",
+    "docs/yaoyi-func/钓鱼.md",
+    "docs/yaoyi-func/答案之书.md",
+    "docs/yaoyi-func/成分姬.md",
+    "docs/vite.config.mts.timestamp-1753935123107-838c2df9aff33.mjs",
+    "docs/jieshao.md",
+    "docs/vite.config.mts.timestamp-1753931846602-20dce069dd9ec.mjs",
+    "docs/vite.config.mts.timestamp-1753931279881-07a6e421fc442.mjs",
+    "docs/intro.md",
+    "docs/index.md",
+    "docs/vite.config.mts.timestamp-1753930633083-89bb9d84c5d548.mjs",
+    "docs/vite.config.mts.timestamp-1753926610074-5c6da58cb4538.mjs",
+    "docs/yaoyi-func/表情包制作.md",
+    "docs/others/support.md",
+    "docs/yaoyi-func/assets/github_card.png",
+    "docs/yaoyi-func/assets/天气.png",
+    "README.md",
     "docs/vite.config.mts.timestamp-1729435823708-e87e578b335a1.mjs",
     "docs/vite.config.mts.timestamp-1729435770719-dc28cadde53da.mjs",
     "docs/vite.config.mts.timestamp-1729435757073-e145b4a508be3.mjs",
     "docs/vite.config.mts",
     "docs/uno.config.mts",
-    "vite.config.mts.timestamp-1729435566233-e699c29ed56a3.mjs",
-    "_tmp_42732_3fe6baa4819760690cafac9e03a549a6",
-    "vite.config.mts.timestamp-1729435082344-8118bfd5ec56f.mjs",
-    "vite.config.mts.timestamp-1729435076117-e399294989114.mjs",
-    "vite.config.mts.timestamp-1729434066777-96c8619237add.mjs",
     "docs/yaoyi-func/Github Card.md",
-    "docs/others/support.md",
     "docs/FAQ.md",
-    "docs/yaoyi-func/网抑云.md",
-    "docs/yaoyi-func/assets/天气.png",
-    "docs/index.md",
-    "docs/intro.md",
-    "docs/jieshao.md",
-    "README.md",
-    "docs/yaoyi-func/塔罗牌.md",
     "docs/yaoyi-func/B站视频分析.md",
-    "docs/yaoyi-func/assets/github_card.png",
     "docs/about/contact.md",
-    "docs/yaoyi-func/今天吃什么.md",
     "未命名.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas"

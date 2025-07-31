@@ -10,6 +10,7 @@ import vitepressNprogress from "vitepress-plugin-nprogress";
 import "vitepress-plugin-nprogress/lib/css/index.css";
 import "@nolebase/vitepress-plugin-enhanced-mark/client/style.css";
 import MyLayout from "./components/MyLayout.vue";
+import AgeCalculator from "./components/AgeCalculator.vue";
 import "@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css";
 import type { Options } from "@nolebase/vitepress-plugin-enhanced-readabilities/client";
 import { InjectionKey } from "@nolebase/vitepress-plugin-enhanced-readabilities/client";
@@ -41,6 +42,7 @@ export default {
     vitepressNprogress(ctx);
     ctx.app.use(NolebaseInlineLinkPreviewPlugin);
     ctx.app.use(NolebaseGitChangelogPlugin);
+    ctx.app.component("AgeCalculator", AgeCalculator);
   },
   Layout: MyLayout,
   setup() {
