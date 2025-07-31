@@ -20,7 +20,15 @@ export default defineConfig({
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
     ["script", { async: "", src: "/m.js" }],
-    ["script", { async: "true", src: "/cursor.js" }],
+    [
+      "script",
+      {
+        defer: "true",
+        src: "https://umami.crashvibe.cn/script.js",
+        "data-domains": "u1.crashvibe.cn",
+        "data-website-id": "ee24d993-b13b-4463-8802-88134404f783",
+      },
+    ],
   ],
   sitemap: {
     hostname: "https://u1.crashvibe.cn",
