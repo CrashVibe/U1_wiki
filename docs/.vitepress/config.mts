@@ -29,7 +29,6 @@ export default defineConfig({
     search: {
       provider: "local",
     },
-    // https://vitepress.dev/reference/default-theme-config
     logo: { src: "/logo.svg", width: 28, height: 28 },
     editLink: {
       pattern: "https://github.com/CrashVibe/U1_wiki/edit/main/docs/:path",
@@ -40,10 +39,9 @@ export default defineConfig({
       {
         text: "关于",
         items: [
-          { text: "📃 关于我们", link: "/about/intro" },
-          { text: "🤗 认识成员", link: "/about/team" },
-          { text: "❤️ 赞助列表", link: "/about/sponsors" },
-          { text: "☎️ 联系我们", link: "/about/contact" },
+          { text: "联系我们", link: "/about/contact" },
+          { text: "认识成员", link: "/about/team" },
+          { text: "赞助列表", link: "/others/sponsors" },
         ],
       },
     ],
@@ -58,10 +56,10 @@ export default defineConfig({
           {
             text: "✨ 姚奕功能介绍",
             items: [
-              { text: "回声洞", link: "/yaoyi-func/回声洞" },
-              { text: "成分姬", link: "/yaoyi-func/成分姬" },
               { text: "钓鱼 🔥", link: "/yaoyi-func/钓鱼" },
               { text: "今日运势 🔥", link: "/yaoyi-func/今日运势" },
+              { text: "回声洞", link: "/yaoyi-func/回声洞" },
+              { text: "成分姬", link: "/yaoyi-func/成分姬" },
               { text: "答案之书", link: "/yaoyi-func/答案之书" },
               { text: "疯狂星期四", link: "/yaoyi-func/疯狂星期四" },
               { text: "今天吃什么", link: "/yaoyi-func/今天吃什么" },
@@ -74,8 +72,13 @@ export default defineConfig({
             ],
           },
           {
-            text: "其他",
-            items: [{ text: "❤ 支持我们", link: "/others/support" }],
+            text: "🎒 其他",
+            items: [
+              { text: "赞助列表", link: "/others/sponsors" },
+              { text: "如何贡献", link: "/others/support" },
+              { text: "联系我们", link: "/about/contact" },
+              { text: "开发团队", link: "/about/team" },
+            ],
           },
         ],
       },

@@ -1,5 +1,6 @@
 ---
 title: 赞助列表
+layout: page
 ---
 
 <script setup>
@@ -27,19 +28,9 @@ const sponsors = [
     title: '捐赠 2 次，共 113 元',
   },
   {
-    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=2787770453&spec=100',
-    name: '监の母',
-    title: '捐赠 2 次，共 45 元',
-  },
-  {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3050404518&spec=100',
     name: 'z',
     title: '捐赠 1 次，共 10 元',
-  },
-  {
-    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=1519412035&spec=100',
-    name: 'Gemence',
-    title: '捐赠 1 次，共 5 元',
   },
   {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3603866430&spec=100',
@@ -163,22 +154,30 @@ const sponsors = [
   }
 ]
 </script>
-
-<VPTeamPage>
+<VPTeamPage class="sponsors-page">
   <VPTeamPageTitle>
     <template #title>
       赞助列表
     </template>
     <template #lead>
       在这个页面你将了解为项目做出财力支持的人
-      <a href="../others/support">如何贡献</a>
+      <a href="../others/support" style="color: #fff; background: #42b3b93f; padding: 0.2em 0.5em; border-radius: 4px; text-decoration: none; font-weight: bold; ">如何贡献</a>
     </template>
+
   </VPTeamPageTitle>
-  <VPTeamPageSection>
+  <VPTeamPageSection class="sponsors-section">
     <template #title>赞助者</template>
-    <template #lead>这些是捐赠过 U1 的人，感谢他们让作者渡过难关!(排名不分先后)</template>
+    <template #lead>这些是捐赠过 U1 的人，十分感谢他们的帮助！</template>
     <template #members>
       <VPTeamMembers size="small" :members="sponsors" />
     </template>
   </VPTeamPageSection>
 </VPTeamPage>
+
+<style scoped>
+.sponsors-page {
+  margin: 0 0 2.5rem 0;
+}
+.sponsors-section {
+}
+</style>

@@ -1,10 +1,6 @@
 import { defineConfig } from "vite";
 
 import {
-  GitChangelog,
-  GitChangelogMarkdownSection,
-} from "@nolebase/vitepress-plugin-git-changelog/vite";
-import {
   PageProperties,
   PagePropertiesMarkdownSection,
 } from "@nolebase/vitepress-plugin-page-properties/vite";
@@ -23,11 +19,6 @@ export default defineConfig(async () => {
       ThumbnailHashImages(),
       PageProperties(),
       PagePropertiesMarkdownSection(),
-      GitChangelog({
-        // 填写在此处填写您的仓库链接
-        repoURL: () => "https://github.com/CrashVibe/U1_wiki",
-      }),
-      GitChangelogMarkdownSection({ sections: { disableContributors: true } }),
       UnoCSS(),
     ],
     ssr: {

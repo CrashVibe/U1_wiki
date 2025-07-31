@@ -115,7 +115,4 @@ docs/.vitepress/cache
 .github/inject.js
 
 # Obsidian
-**/.obsidian/*
-!**/.obsidian/workspace*
-!**/.obsidian/graph*
-!**/.obsidian/snippets/
+.obsidian

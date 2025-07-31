@@ -22,11 +22,6 @@ import "@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css";
 import { NolebaseUnlazyImg } from "@nolebase/vitepress-plugin-thumbnail-hash/client";
 import "@nolebase/vitepress-plugin-thumbnail-hash/client/style.css";
 
-import { NolebaseGitChangelogPlugin } from "@nolebase/vitepress-plugin-git-changelog/client";
-import "virtual:uno.css";
-
-import "@nolebase/vitepress-plugin-git-changelog/client/style.css";
-
 export default {
   extends: DefaultTheme,
   enhanceApp(ctx) {
@@ -41,7 +36,6 @@ export default {
     } as Options);
     vitepressNprogress(ctx);
     ctx.app.use(NolebaseInlineLinkPreviewPlugin);
-    ctx.app.use(NolebaseGitChangelogPlugin);
     ctx.app.component("AgeCalculator", AgeCalculator);
   },
   Layout: MyLayout,
