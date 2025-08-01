@@ -16,7 +16,7 @@
 
 - **微信支付**：扫码捐赠
 
-![](assets/wechatpay.png){width="300px" height="300px"}
+![](assets/wechatpay.jpg){width="300px" height="300px"}
 
 - **爱发电**：不推荐 [点击这里捐赠](https://afdian.com/a/wling)
 
