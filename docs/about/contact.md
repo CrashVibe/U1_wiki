@@ -4,7 +4,7 @@
 
 如果您有任何问题或建议，请随时通过电子邮件与我们联系。我们会尽快回复您。
 
-- **邮箱地址**: [wlingzhenyu@163.com](mailto:wlingzhenyu@163.com)
+- **邮箱地址**: [mrlingxd@163.com](mailto:wlingzhenyu@163.com)
 
 ## 联系作者
 
