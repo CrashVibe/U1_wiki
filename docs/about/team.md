@@ -15,7 +15,7 @@ import {
 const coreMembers = [
   {
     avatar: 'https://github.com/wling-art.png',
-    name: 'wlingzhenyu',
+    name: 'MrlingXD',
     title: '作者',
     links: [
       { icon: 'github', link: 'https://github.com/wling-art' }
