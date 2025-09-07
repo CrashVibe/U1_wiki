@@ -30,7 +30,7 @@ const sponsors = [
   {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3050404518&spec=100',
     name: 'z',
-    title: '捐赠 1 次，共 10 元',
+    title: '捐赠 2 次，共 25 元',
   },
   {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3603866430&spec=100',
