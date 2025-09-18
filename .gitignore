@@ -116,3 +116,4 @@ docs/.vitepress/cache
 
 # Obsidian
 .obsidian
+.DS_Store
