@@ -14,7 +14,7 @@ import {
 const sponsors = [
   {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3826876813&spec=100',
-    name: '精卫',
+    name: '金咕咕YG',
     title: '捐赠 1 次，共 5 元',
   },
   {
