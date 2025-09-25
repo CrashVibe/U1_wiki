@@ -13,6 +13,11 @@ import {
 
 const sponsors = [
   {
+    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3170455924&spec=100',
+    name: '。。。。。。',
+    title: '捐赠 1 次，共 25 元'
+  },
+  {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3826876813&spec=100',
     name: '金咕咕YG',
     title: '捐赠 1 次，共 5 元',
@@ -141,11 +146,6 @@ const sponsors = [
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=2015283665&spec=100',
     name: '希儿希儿希',
     title: '捐赠 1 次，共 5 元'
-  },
-  {
-    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3170455924&spec=100',
-    name: '。。。。。。',
-    title: '捐赠 1 次，共 10 元'
   },
   {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=1499269976&spec=100',
