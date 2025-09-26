@@ -1,12 +1,8 @@
 {
-  "compilerOptions": {
-    "module": "ESNext",
-    "moduleResolution": "Bundler"
-  },
-  "include": [
-    "**/.vitepress/**/*.ts",
-    "**/.vitepress/**/*.mts",
-    "**/.vitepress/**/*.vue"
-  ],
-  "exclude": ["node_modules"]
+    "compilerOptions": {
+        "module": "ESNext",
+        "moduleResolution": "Bundler"
+    },
+    "include": ["**/.vitepress/**/*.ts", "**/.vitepress/**/*.mts", "**/.vitepress/**/*.vue"],
+    "exclude": ["node_modules"]
 }

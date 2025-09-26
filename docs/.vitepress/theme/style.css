@@ -1,4 +1,4 @@
-@import './var.css';
+@import "./var.css";
 /**
  * Customize default theme styling by overriding CSS variables:
  * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
@@ -93,12 +93,9 @@
 
 :root {
     --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
-            #bd34fe,
-            #41d1ff);
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
     --vp-home-hero-image-filter: blur(44px);
-    --vp-home-hero-image-background-image: linear-gradient(135deg,   #bd34fe,
-            #41d1ff);
+    --vp-home-hero-image-background-image: linear-gradient(135deg, #bd34fe, #41d1ff);
     --vp-home-hero-image-filter: blur(150px);
 }
 
