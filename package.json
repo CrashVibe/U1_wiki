@@ -9,7 +9,6 @@
         "docs:build": "vitepress build docs",
         "docs:preview": "vitepress preview docs"
     },
-    "license": "MPL 2.0",
     "devDependencies": {
         "@nolebase/markdown-it-bi-directional-links": "^2.18.1",
         "@nolebase/markdown-it-unlazy-img": "^2.18.1",
