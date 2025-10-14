@@ -11,7 +11,6 @@ import {
   VPTeamPageSection
 } from 'vitepress/theme'
 
-
 const coreMembers = [
   {
     avatar: 'https://github.com/wling-art.png',
