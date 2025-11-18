@@ -15,7 +15,7 @@ const sponsors = [
   {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3215948365&spec=100',
     name: 'LFID',
-    title: '捐赠 1 次，共 25 元'
+    title: '捐赠 1 次，共 5 元'
   },
   {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3170455924&spec=100',
