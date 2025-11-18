@@ -67,6 +67,7 @@ export default defineConfig({
                             { text: "钓鱼 🔥", link: "/yaoyi-func/钓鱼" },
                             { text: "今日运势 🔥", link: "/yaoyi-func/今日运势" },
                             { text: "回声洞", link: "/yaoyi-func/回声洞" },
+                            { text: "次元币", link: "/yaoyi-func/次元币" },
                             { text: "成分姬", link: "/yaoyi-func/成分姬" },
                             { text: "答案之书", link: "/yaoyi-func/答案之书" },
                             { text: "疯狂星期四", link: "/yaoyi-func/疯狂星期四" },
