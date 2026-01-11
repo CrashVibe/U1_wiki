@@ -70,7 +70,6 @@ export default defineConfig({
                             { text: "次元币", link: "/yaoyi-func/次元币" },
                             { text: "成分姬", link: "/yaoyi-func/成分姬" },
                             { text: "答案之书", link: "/yaoyi-func/答案之书" },
-                            { text: "疯狂星期四", link: "/yaoyi-func/疯狂星期四" },
                             { text: "今天吃什么", link: "/yaoyi-func/今天吃什么" },
                             { text: "历史上的今天", link: "/yaoyi-func/历史上的今天" },
                             { text: "天气", link: "/yaoyi-func/天气" },
