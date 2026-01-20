@@ -13,9 +13,14 @@ import {
 
 const sponsors = [
   {
-    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3215948365&spec=100',
-    name: 'LFID',
+    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=1923613836&spec=100',
+    name: '天羽青竹',
     title: '捐赠 1 次，共 5 元'
+  },
+  {
+    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=2682173972&spec=100',
+    name: 'Dreeam',
+    title: '捐赠 1 次，共 50 元'
   },
   {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3170455924&spec=100',
