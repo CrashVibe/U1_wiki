@@ -5,7 +5,7 @@
     "description": "",
     "packageManager": "pnpm@9.12.1",
     "scripts": {
-        "docs:dev": "vitepress dev docs",
+        "dev": "vitepress dev docs",
         "docs:build": "vitepress build docs",
         "docs:preview": "vitepress preview docs"
     },
@@ -24,6 +24,7 @@
         "unocss": "^66.3.3",
         "vite": "^7.0.6",
         "vitepress": "^1.6.3",
+        "vitepress-markdown-timeline": "^1.2.2",
         "vitepress-plugin-nprogress": "^0.0.4",
         "vue": "^3.5.18"
     }

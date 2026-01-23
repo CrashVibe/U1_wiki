@@ -3,6 +3,7 @@ import { InlineLinkPreviewElementTransform } from "@nolebase/vitepress-plugin-in
 import pkg from "../../package.json";
 import { UnlazyImages } from "@nolebase/markdown-it-unlazy-img";
 import { BiDirectionalLinks } from "@nolebase/markdown-it-bi-directional-links";
+import timeline from "vitepress-markdown-timeline";
 
 export default defineConfig({
     vue: {
@@ -59,6 +60,7 @@ export default defineConfig({
                 text: "教程",
                 items: [
                     { text: "👋 欢迎来到 U1 Wiki", link: "/intro" },
+                    { text: "🕰️ 更新日志", link: "/changelog" },
                     { text: "🌹 FAQ", link: "/FAQ" },
                     { text: "📘 项目介绍", link: "/jieshao" },
                     {
@@ -114,6 +116,7 @@ export default defineConfig({
                 imgElementTag: "NolebaseUnlazyImg"
             });
             md.use(BiDirectionalLinks());
+            md.use(timeline);
             md.use(InlineLinkPreviewElementTransform);
         },
 

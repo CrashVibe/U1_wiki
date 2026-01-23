@@ -16,7 +16,7 @@ import type { Options } from "@nolebase/vitepress-plugin-enhanced-readabilities/
 import { InjectionKey } from "@nolebase/vitepress-plugin-enhanced-readabilities/client";
 import { NolebaseInlineLinkPreviewPlugin } from "@nolebase/vitepress-plugin-inline-link-preview/client";
 import "@nolebase/vitepress-plugin-inline-link-preview/client/style.css";
-
+import "vitepress-markdown-timeline/dist/theme/index.css";
 import "@nolebase/vitepress-plugin-highlight-targeted-heading/client/style.css";
 
 import { NolebaseUnlazyImg } from "@nolebase/vitepress-plugin-thumbnail-hash/client";
