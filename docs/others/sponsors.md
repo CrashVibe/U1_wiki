@@ -13,6 +13,11 @@ import {
 
 const sponsors = [
   {
+    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=2063553200&spec=100',
+    name: '芸術は爆発だ',
+    title: '捐赠 1 次，共 30 元'
+  },
+  {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=1923613836&spec=100',
     name: '天羽青竹',
     title: '捐赠 1 次，共 5 元'
