@@ -10,7 +10,7 @@ hero:
           link: /intro
         - theme: alt
           text: 加入交流群
-          link: https://qm.qq.com/q/FQCR69VXMI
+          link: https://qm.qq.com/q/CdUUAeD4dy
 
 features:
     - title: "为什么使用本 Wiki?"
