@@ -24,6 +24,7 @@ export default defineConfig({
         [
             "script",
             {
+                async: "",
                 defer: "true",
                 src: "https://umami.crashvibe.cn/script.js",
                 "data-domains": "u1.crashvibe.cn",
