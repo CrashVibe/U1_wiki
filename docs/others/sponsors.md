@@ -13,14 +13,24 @@ import {
 
 const sponsors = [
   {
-    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3534183696&spec=100',
-    name: '瑶曦',
-    title: '捐赠 1 次，共 50 元'
+    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=195086908&spec=100',
+    name: '紷天',
+    title: '捐赠 1 次，共 5.2 元',
+  },
+  {
+    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3826876813&spec=100',
+    name: '金咕咕YG',
+    title: '捐赠 2 次，共 15 元',
   },
   {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=2063553200&spec=100',
     name: '芸術は爆発だ',
-    title: '捐赠 1 次，共 30 元'
+    title: '捐赠 2 次，共 40 元'
+  },
+  {
+    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3534183696&spec=100',
+    name: '瑶曦',
+    title: '捐赠 1 次，共 50 元'
   },
   {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=1923613836&spec=100',
@@ -36,11 +46,6 @@ const sponsors = [
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3170455924&spec=100',
     name: '。。。。。。',
     title: '捐赠 1 次，共 25 元'
-  },
-  {
-    avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3826876813&spec=100',
-    name: '金咕咕YG',
-    title: '捐赠 1 次，共 5 元',
   },
   {
     avatar: 'https://q.qlogo.cn/headimg_dl?dst_uin=3070129730&spec=100',
