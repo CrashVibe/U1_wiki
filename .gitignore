@@ -111,6 +111,9 @@ docs/.vitepress/cache
 # VSC
 .vscode
 
+# JetBrains IDE
+.idea
+
 # Inject JavaScript
 .github/inject.js
 

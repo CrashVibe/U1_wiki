@@ -14,6 +14,7 @@ export default defineConfig({
         }
     },
     lastUpdated: true,
+    cleanUrls: true,
     lang: "zh-CN",
     title: "U1 Wiki",
     description: "U1 项目的官方文档",
