@@ -1,6 +1,9 @@
 import { defineConfig } from "vite";
 
-import { PageProperties, PagePropertiesMarkdownSection } from "@nolebase/vitepress-plugin-page-properties/vite";
+import {
+    PageProperties,
+    PagePropertiesMarkdownSection
+} from "@nolebase/vitepress-plugin-page-properties/vite";
 import { ThumbnailHashImages } from "@nolebase/vitepress-plugin-thumbnail-hash/vite";
 import UnoCSS from "unocss/vite";
 
@@ -12,7 +15,12 @@ export default defineConfig(async () => {
             // This needs to be excluded from optimization
             exclude: ["vitepress"]
         },
-        plugins: [ThumbnailHashImages(), PageProperties(), PagePropertiesMarkdownSection(), UnoCSS()],
+        plugins: [
+            ThumbnailHashImages(),
+            PageProperties(),
+            PagePropertiesMarkdownSection(),
+            UnoCSS()
+        ],
         ssr: {
             noExternal: [
                 "@nolebase/ui",

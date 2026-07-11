@@ -47,21 +47,45 @@ queueMicrotask(() => {
         200
     );
 
-    setTimeout(Log.bind(console, "%c WELCOME %c 你好，小笨蛋", "color:white;background-color:#4f90d9", ""), 250);
-
     setTimeout(
-        Log.bind(console, "%c ⚡ Powered by ZL %c 你正在访问 U1 项目 Wiki", "color:white;background-color:#f0ad4e", ""),
-        300
+        Log.bind(console, "%c WELCOME %c 你好，小笨蛋", "color:white;background-color:#4f90d9", ""),
+        250
     );
-
-    setTimeout(Log.bind(console, "%c ZLW-3 %c 你已打开控制台", "color:white;background-color:#4f90d9", ""), 350);
-
-    setTimeout(Log.bind(console, "%c ZLW-4 %c 你现在正处于监控中", "color:white;background-color:#d9534f", ""), 400);
 
     setTimeout(
         Log.bind(
             console,
-            `%c ZLW-5 %c ${siteDateStatistics(new Date("2023-11-14"))}.`,
+            "%c ⚡ Powered by CrashVibe %c 你正在访问 U1 项目 Wiki",
+            "color:white;background-color:#f0ad4e",
+            ""
+        ),
+        300
+    );
+
+    setTimeout(
+        Log.bind(
+            console,
+            "%c CrashVibe-3 %c 你已打开控制台",
+            "color:white;background-color:#4f90d9",
+            ""
+        ),
+        350
+    );
+
+    setTimeout(
+        Log.bind(
+            console,
+            "%c CrashVibe-4 %c 你现在正处于监控中",
+            "color:white;background-color:#d9534f",
+            ""
+        ),
+        400
+    );
+
+    setTimeout(
+        Log.bind(
+            console,
+            `%c CrashVibe-5 %c ${siteDateStatistics(new Date("2023-11-14"))}.`,
             "color:white;background-color:#4f90d9",
             ""
         ),

@@ -73,6 +73,7 @@ export default defineConfig({
                             { text: "娶群友", link: "/yaoyi-func/娶群友" },
                             { text: "回声洞", link: "/yaoyi-func/回声洞" },
                             { text: "次元币", link: "/yaoyi-func/次元币" },
+                            { text: "排行榜奖励", link: "/yaoyi-func/排行榜奖励" },
                             { text: "成分姬", link: "/yaoyi-func/成分姬" },
                             { text: "答案之书", link: "/yaoyi-func/答案之书" },
                             { text: "今天吃什么", link: "/yaoyi-func/今天吃什么" },

@@ -1,39 +1,39 @@
 name: Sync wiki to Vectorize
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'docs/yaoyi-func/**'
-  workflow_dispatch:
+    push:
+        branches: [main]
+        paths:
+            - "docs/yaoyi-func/**"
+    workflow_dispatch:
 
 jobs:
-  sync:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 2
+    sync:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  fetch-depth: 2
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: 22
 
-      - run: node scripts/sync-vectorize.mjs
-        env:
-          EMBEDDING_API_KEY: ${{ secrets.EMBEDDING_API_KEY }}
-          EMBEDDING_BASE_URL: ${{ secrets.EMBEDDING_BASE_URL }}
-          EMBEDDING_MODEL: ${{ secrets.EMBEDDING_MODEL }}
-          EMBEDDING_DIM: ${{ secrets.EMBEDDING_DIM }}
-          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
-          CF_VECTORIZE_INDEX: ${{ secrets.CF_VECTORIZE_INDEX }}
-          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+            - run: node scripts/sync-vectorize.mjs
+              env:
+                  EMBEDDING_API_KEY: ${{ secrets.EMBEDDING_API_KEY }}
+                  EMBEDDING_BASE_URL: ${{ secrets.EMBEDDING_BASE_URL }}
+                  EMBEDDING_MODEL: ${{ secrets.EMBEDDING_MODEL }}
+                  EMBEDDING_DIM: ${{ secrets.EMBEDDING_DIM }}
+                  CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+                  CF_VECTORIZE_INDEX: ${{ secrets.CF_VECTORIZE_INDEX }}
+                  CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
 
-      - name: Commit index
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .github/wiki-index.json
-          git diff --staged --quiet || (git commit -m "chore: update wiki-index [skip ci]" && git push)
+            - name: Commit index
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "github-actions[bot]@users.noreply.github.com"
+                  git add .github/wiki-index.json
+                  git diff --staged --quiet || (git commit -m "chore: update wiki-index [skip ci]" && git push)

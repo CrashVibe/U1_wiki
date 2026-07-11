@@ -1,13 +1,17 @@
 {
     "name": "tl_docs",
     "version": "0.0.1",
-    "type": "module",
     "description": "",
-    "packageManager": "pnpm@9.12.1",
+    "type": "module",
     "scripts": {
         "dev": "vitepress dev docs",
         "docs:build": "vitepress build docs",
-        "docs:preview": "vitepress preview docs"
+        "docs:preview": "vitepress preview docs",
+        "lint": "oxlint",
+        "lint:fix": "oxlint --fix",
+        "format": "oxfmt",
+        "format:check": "oxfmt --check",
+        "check": "oxlint && oxfmt --check"
     },
     "devDependencies": {
         "@nolebase/markdown-it-bi-directional-links": "^2.18.1",
@@ -20,6 +24,8 @@
         "@nolebase/vitepress-plugin-thumbnail-hash": "^2.18.1",
         "@types/node": "^24.1.0",
         "medium-zoom": "^1.1.0",
+        "oxfmt": "^0.58.0",
+        "oxlint": "^1.73.0",
         "sharp": "^0.34.3",
         "unocss": "^66.3.3",
         "vite": "^7.0.6",
@@ -27,5 +33,6 @@
         "vitepress-markdown-timeline": "^1.2.2",
         "vitepress-plugin-nprogress": "^0.0.4",
         "vue": "^3.5.18"
-    }
+    },
+    "packageManager": "pnpm@9.12.1"
 }
